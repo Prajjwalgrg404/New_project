@@ -34,6 +34,7 @@ function Header() {
           <Link to="/team">
             <h3 className="px-6 py-3 hover:text-red-600">Team</h3>
           </Link>
+
         </div>
       </div>
     </header>

@@ -9,6 +9,7 @@ import Home from "./Component/Home/Home";
 import Landing from "./Component/Landing/Landing";
 import About from "./Component/About/About";
 
+
 function App() {
   return (
     <div>
@@ -21,9 +22,6 @@ function App() {
         <Route path="/landing" element={<Landing/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/team" element={<Team/>}></Route>
-
-        {/* FAQ section ka glitch dekhna hai */}
-
       </Routes>
     </div>
   );
