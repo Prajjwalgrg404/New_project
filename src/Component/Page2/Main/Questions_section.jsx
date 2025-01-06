@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import details from "../Main/Question_details";
 
 function Questions_section() {
-  const [Toggle, setToggle] = useState(0);
+  const [Toggle, setToggle] = useState(null);
   const [active, setActive] = useState(false);
-  // console.log(active, Toggle);
+  console.log(active, Toggle);
 
   function Accordian(id) {
     setActive(!active);
