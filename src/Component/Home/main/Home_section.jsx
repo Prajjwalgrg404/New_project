@@ -21,13 +21,13 @@ function Home_section() {
                   <img
                     src={items.img}
                     alt="Image"
-                    class="w-[6rem] h-[6rem] p-4 bg-[#F2F2F2] rounded-[4rem] object-cover"
+                    className="w-[6rem] h-[6rem] p-4 bg-[#F2F2F2] rounded-[4rem] object-cover"
                   />
                   <div className="flex flex-col justify-center items-center px-8">
-                    <h3 class="text-[1.5rem] font-semibold text-gray-800">
+                    <h3 className="text-[1.5rem] font-semibold text-gray-800">
                       {items.name}
                     </h3>
-                    <p class="text-[1.1rem] py-6 font-semibold text-gray-500">
+                    <p className="text-[1.1rem] py-6 font-semibold text-gray-500">
                       {items.text}
                     </p>
                     <button>

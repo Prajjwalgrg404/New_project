@@ -20,11 +20,11 @@ function Ourteam_section() {
               <img
                 src={items.image}
                 alt=""
-                class="w-full h-[20rem] px-8 py-8 rounded-[4rem] object-cover"
+                className="w-full h-[20rem] px-8 py-8 rounded-[4rem] object-cover"
               />
               <div className="flex flex-col justify-center items-center">
-              <h3 class="text-[1.7rem] font-semibold text-gray-800">{items.name}</h3>
-              <p class="text-sm font-semibold text-gray-500">{items.position}</p>
+              <h3 className="text-[1.7rem] font-semibold text-gray-800">{items.name}</h3>
+              <p className="text-sm font-semibold text-gray-500">{items.position}</p>
               </div>
               </div>
             </div>

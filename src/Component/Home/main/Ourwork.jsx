@@ -11,10 +11,9 @@ function Ourwork() {
             <p className='text-lg py-5'>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
           </div>
           <div className="flex gap-6 flex-wrap justify-center items-center">
-            {images.map((item, index) => (
-              <div className='overflow-hidden'>
+            {images.map((item, id) => (
+              <div key={id} className='overflow-hidden'>
                 <div
-                key={index}
                 className=" w-[22rem] h-[23rem] bg-cover duration-500 hover:scale-105"
                 style={{ backgroundImage: `url(${item.img})` }}
               >

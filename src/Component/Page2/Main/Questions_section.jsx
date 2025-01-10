@@ -2,18 +2,12 @@ import React, { useState } from "react";
 import details from "../Main/Question_details";
 
 function Questions_section() {
-  const [Toggle, setToggle] = useState(null);
-  const [active, setActive] = useState(false);
-  console.log(active, Toggle);
+  const [Toggle, setToggle] = useState();
 
   function Accordian(id) {
-    setActive(!active);
-
-    setToggle((prev) => {
-      return active ? (prev === 0) : id;
-    });
+    setToggle((prevToggle) => (prevToggle === id ? null : id));
   }
-
+  
   return (
     <div className="w-[80%] h-full mx-auto ">
       <div className="text-center">
